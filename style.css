@@ -1,0 +1,149 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background: linear-gradient(to right, #141e30, #243b55);
+
+    color: white;
+
+    text-align: center;
+
+}
+
+header {
+
+    padding: 40px;
+
+}
+
+.profile-image {
+
+    width: 150px;
+
+    height: 150px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 4px solid white;
+
+    margin-bottom: 20px;
+
+}
+
+h1 {
+
+    font-size: 40px;
+
+    margin-bottom: 10px;
+
+}
+
+p {
+
+    font-size: 18px;
+
+}
+
+section {
+
+    margin: 40px auto;
+
+    padding: 20px;
+
+    width: 80%;
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+    border-radius: 15px;
+
+}
+
+.skills {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+}
+
+.skills span {
+
+    background: white;
+
+    color: black;
+
+    padding: 10px 20px;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+
+}
+
+input, textarea {
+
+    width: 80%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+}
+
+button {
+
+    background-color: #00adb5;
+
+    color: white;
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background-color: #008891;
+
+}
+
+#projects div {
+
+    background: rgba(255, 255, 255, 0.1);
+
+    margin: 15px;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+}
+
+a {
+
+    color: #00ffff;
+
+    text-decoration: none;
+
+}
